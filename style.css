@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+    flex-direction: column;
+    gap: 20px;
+    background-color: black;
+}
+
+.title {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.img-container {
+    display: flex;
+    width: 512px;
+    height: 256px;
+    background-color: gray;
+}
+
+.gen-button {
+    background-color: blue;
+    color: red;
+    position: relative;
+    font-size: 0.7em;
+    letter-spacing: 0.1em;
+    padding: 0px 20px;
+}
+
+.gen-button:hover {
+    letter-spacing: 0.25em;
+    background: darkblue;
+    color: darkred;
+    box-shadow: 0 0 15px darkblue;
+}
