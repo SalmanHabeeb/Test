@@ -1,12 +1,44 @@
 body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     min-height: 10vh;
     flex-direction: column;
     gap: 20px;
-    background-color: black;
+    background-color: red;
 }
+
+/* .nav-bar {
+    display: flex;
+    background-color: blueviolet;
+    align-content: left;
+    align-items: left;
+    min-height: 1vh;
+    flex-direction: column;
+    overflow: hidden;
+} */
+
+/* ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+} */
+
+/* li {
+    float: left;
+} */
+/* 
+li a, .dropbtn {
+    display: flex;
+    color: red;
+    text-align: center;
+    padding: 14px, 16px;
+} */
+
+/* li a:hover, .dropdown:hover .dropbtn {
+    background-color: blue;
+} */
 
 .title {
     text-align: center;
@@ -14,26 +46,29 @@ body {
     font-style: italic;
     font-size: x-large;
 }
-
+/* justify-content: center;
+align-items: center; */
 .img-container {
     display: flex;
-    width: 512px;
-    height: 256px;
-    background-color: gray;
+    background-image: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .gen-button {
     background-color: blue;
     color: red;
     position: relative;
-    font-size: 0.7em;
+    /* font-size: 0.7em; */
     letter-spacing: 0.1em;
     padding: 0px 20px;
+    max-width: 150px;
+    align-self: center;
 }
 
 .gen-button:hover {
     letter-spacing: 0.25em;
     background: darkblue;
     color: darkred;
-    box-shadow: 0 0 15px darkblue;
+    box-shadow: 0 0 50px darkblue;
 }

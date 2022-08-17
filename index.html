@@ -13,10 +13,16 @@
             <h1>Helloworld</h1>
         </div>
         <div class = "img-container">
-            <img>
+            <img 
+            srcset = "./assets/images/default.jpg 512w, ./assets/images/default.jpg 512w"
+            sizes = "(max-width: 640px) 80vw, (min-width: 640px) 512px"
+            src = "./assets/images/default.jpg"
+            alt = "Your device doesn't support this image"
+            id = "image">
         </div>
-        <button class = "gen-button">
-            <h1>Button</h1>
+        <button class = "gen-button" id = "generator">
+            <h4><b>Generate</b></h4>
         </button>
+        <script src="assets/js/script.js"></script>
     </body>
 </html>
