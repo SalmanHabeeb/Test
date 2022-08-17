@@ -7,15 +7,6 @@ body {
     background-color: red;
 }
 
-@media(min-width: 640px){
-    .gen-button:hover {
-        letter-spacing: 0.25em;
-        background: darkblue;
-        color: darkred;
-        box-shadow: 0 0 50px darkblue;
-    }
-}
-
 /* .nav-bar {
     display: flex;
     background-color: blueviolet;
@@ -55,8 +46,7 @@ li a, .dropbtn {
     font-style: italic;
     font-size: x-large;
 }
-/* justify-content: center;
-align-items: center; */
+
 .img-container {
     display: flex;
     background-image: none;
@@ -75,13 +65,11 @@ align-items: center; */
     align-self: center;
 }
 
-.gen-button:after {
-    background-color: blue;
-    color: red;
-    position: relative;
-    /* font-size: 0.7em; */
-    letter-spacing: 0.1em;
-    padding: 0px 20px;
-    max-width: 150px;
-    align-self: center;
+@media(min-width: 640px){
+    .gen-button:hover {
+        letter-spacing: 0.25em;
+        background: darkblue;
+        color: darkred;
+        box-shadow: 0 0 50px darkblue;
+    }
 }
