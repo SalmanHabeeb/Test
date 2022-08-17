@@ -72,3 +72,14 @@ align-items: center; */
     color: darkred;
     box-shadow: 0 0 50px darkblue;
 }
+
+.gen-button:after {
+    background-color: blue;
+    color: red;
+    position: relative;
+    /* font-size: 0.7em; */
+    letter-spacing: 0.1em;
+    padding: 0px 20px;
+    max-width: 150px;
+    align-self: center;
+}
