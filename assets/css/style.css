@@ -13,6 +13,8 @@ body {
     align-items: center;
 }
 
+
+
 .nav-bar {
 }
 
@@ -23,6 +25,11 @@ body {
     overflow: hidden;
     background-color: blue;
     gap: 2rem;
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
 }
 
 li {
