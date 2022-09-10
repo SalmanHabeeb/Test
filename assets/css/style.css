@@ -26,7 +26,7 @@ body {
     overflow: hidden;
     background-color: blue;
     gap: 2rem;
-    /*float: right;*/
+    float: right;
 }
 
 .icon {
@@ -36,7 +36,6 @@ body {
 }
 
 li {
-    float: right;
     gap: 2rem;
 }
 
