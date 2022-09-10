@@ -6,23 +6,58 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Homepage</title>
 
-        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
     </head>
     <body>
         <div class = "title">
-            <h1>Helloworld</h1>
+            <h3>Helloworld</h3>
         </div>
+        <nav class = "nav-bar">
+            <ul class="nav-bar-list">
+                <li>
+                    <a class="nav-bar-link" href = "#">Home</a>
+                </li>
+                <li>
+                    <a class="nav-bar-link" href = "#">About</a>
+                </li>
+            </ul>
+        </nav>
         <div class = "img-container">
-            <img 
-            srcset = "./assets/images/default.jpg 512w, ./assets/images/default.jpg 512w"
-            sizes = "(max-width: 640px) 80vw, (min-width: 640px) 512px"
+            <img
             src = "./assets/images/default.jpg"
+            sizes = "(max-width: 640px) 80vw, (min-width: 640px) 512px"
             alt = "Your device doesn't support this image"
             id = "image">
         </div>
         <button class = "gen-button" id = "generator">
             <h4><b>Generate</b></h4>
         </button>
-        <script src="assets/js/script.js"></script>
+        <!-- <script>
+            var changeImage = function() {
+                var image = document.getElementById("image")
+                // image.srcset = "./assets/images/heic1206a.jpg 512w, ./assets/images/heic1206a.jpg 512w";
+                if (image.srcset.match("./assets/images/default.jpg 512w, ./assets/images/default.jpg 512w")) {
+                image.srcset = "./assets/images/heic1206a.jpg 512w, ./assets/images/heic1206a.jpg 512w";
+                }
+                else {
+                    image.srcset = "./assets/images/default.jpg 512w, ./assets/images/default.jpg 512w";
+                }  
+            }
+        </script> -->
+        <!-- <script>
+            document.getElementById("generator").addEventListener("click", changeImage);
+
+            function changeImage() {
+                var image = document.getElementById("image");
+                // image.srcset = "./assets/images/heic1206a.jpg 512w, ./assets/images/heic1206a.jpg 512w";
+                if (image.srcset.match("./assets/images/default.jpg 512w, ./assets/images/default.jpg 512w")) {
+                image.srcset = "./assets/images/heic1206a.jpg 512w, ./assets/images/heic1206a.jpg 512w";
+                }
+                else {
+                    image.srcset = "./assets/images/default.jpg 512w, ./assets/images/default.jpg 512w";
+                }
+            }
+        </script> -->
+        <script src="./assets/js/script.js"></script>
     </body>
 </html>
