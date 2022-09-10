@@ -10,7 +10,7 @@ body {
     display: flex;
     background-image: none;
     justify-content: flex-start;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .nav-bar {
