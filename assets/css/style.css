@@ -1,21 +1,55 @@
 body {
     display: flex;
-
-    min-height: 10vh;
+    /* min-height: 10vh; */
     flex-direction: column;
     gap: 20px;
-    background-color: red;
+    background-color: black;
 }
 
-/* .nav-bar {
-    display: flex;
-    background-color: blueviolet;
-    align-content: left;
-    align-items: left;
-    min-height: 1vh;
-    flex-direction: column;
+.title {
+    text-align: center;
+    color: blue;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.nav-bar {
+}
+
+.nav-bar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-} */
+    background-color: blue;
+    gap: 2rem;
+}
+
+li {
+    float: left;
+    gap: 2rem;
+}
+
+.nav-bar-link {
+    color: aliceblue;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: 900;
+}
+
+.nav-bar-link:is(:hover, :focus) {
+    color: blue;
+    background-color: #00FF00;
+}
+
+.nav-bar-link::after{
+    color: aliceblue;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    font-weight: 900;
+}
 
 /* ul {
     list-style-type: none;
@@ -40,18 +74,27 @@ li a, .dropbtn {
     background-color: blue;
 } */
 
-.title {
-    text-align: center;
-    color: blue;
-    font-style: italic;
-    font-size: x-large;
-}
-
+/* justify-content: center;
+align-items: center; */
 .img-container {
     display: flex;
     background-image: none;
     justify-content: center;
     align-items: center;
+}
+
+img {
+    width: 512px;
+    background-color: blue;
+    padding: 10px;
+    max-height: 256px;
+}
+
+@media(max-width: 640px) {
+    img {
+        width: 80vw;
+        padding: 2vw;
+    }
 }
 
 .gen-button {
@@ -65,11 +108,9 @@ li a, .dropbtn {
     align-self: center;
 }
 
-@media(min-width: 640px){
-    .gen-button:hover {
-        letter-spacing: 0.25em;
-        background: darkblue;
-        color: darkred;
-        box-shadow: 0 0 50px darkblue;
-    }
+.gen-button:hover {
+    letter-spacing: 0.25em;
+    background: darkblue;
+    color: darkred;
+    box-shadow: 0 0 50px darkblue;
 }
