@@ -20,7 +20,7 @@ body {
     height: 75px;
     line-height: 75px;
     padding: 0px 100px;
-    position: fixed;
+    position: relative;
 }
 
 .nav-bar-list {
