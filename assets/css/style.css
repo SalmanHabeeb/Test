@@ -11,9 +11,8 @@ body {
     background-image: none;
     justify-content: center;
     align-items: center;
+    float: left;
 }
-
-
 
 .nav-bar {
     width: 100%;
@@ -30,6 +29,7 @@ body {
     overflow: hidden;
     background-color: blue;
     gap: 2rem;
+    float: right;
 }
 
 .icon {
@@ -38,7 +38,7 @@ body {
 }
 
 li {
-    float: left;
+    float: right;
     gap: 2rem;
 }
 
