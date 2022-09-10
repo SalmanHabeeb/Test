@@ -7,6 +7,9 @@ body {
 }
 
 .title {
+    display: flex;
+    background-image: none;
+    justify-content: center;
     align-items: center;
 }
 
