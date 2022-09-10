@@ -83,7 +83,7 @@ align-items: center; */
     align-items: center;
 }
 
-img {
+.image {
     width: 512px;
     background-color: blue;
     padding: 10px;
@@ -91,7 +91,7 @@ img {
 }
 
 @media(max-width: 640px) {
-    img {
+    .image {
         width: 80vw;
         padding: 2vw;
     }
